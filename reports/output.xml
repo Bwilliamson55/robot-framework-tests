@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.7 on linux)" generated="20221104 21:34:14.643" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.7 on linux)" generated="20221105 15:18:12.270" rpa="false" schemaversion="3">
 <suite id="s1" name="Tests" source="/opt/robotframework/tests">
 <suite id="s1-s1" name="Browser-Library" source="/opt/robotframework/tests/browser-library.robot">
 <test id="s1-s1-t1" name="Visit Bing" line="10">
@@ -10,11 +10,11 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20221104 21:34:16.855" level="INFO">{"browser": "chromium", "headless": true, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/opt/robotframework/reports/browser/traces/82f41dc6-dacf-4a1a-a6cd-05bc40a46930"}</msg>
-<msg timestamp="20221104 21:34:17.790" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/opt/robotframework/reports/browser/traces/82f41dc6-dacf-4a1a-a6cd-05bc40a46930"}</msg>
-<status status="PASS" starttime="20221104 21:34:16.853" endtime="20221104 21:34:17.791"/>
+<msg timestamp="20221105 15:18:15.467" level="INFO">{"browser": "chromium", "headless": true, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/opt/robotframework/reports/browser/traces/d4ff515b-bfaa-497d-99e7-89d6f9c44227"}</msg>
+<msg timestamp="20221105 15:18:16.410" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/opt/robotframework/reports/browser/traces/d4ff515b-bfaa-497d-99e7-89d6f9c44227"}</msg>
+<status status="PASS" starttime="20221105 15:18:15.465" endtime="20221105 15:18:16.411"/>
 </kw>
-<status status="PASS" starttime="20221104 21:34:16.852" endtime="20221104 21:34:17.792"/>
+<status status="PASS" starttime="20221105 15:18:15.464" endtime="20221105 15:18:16.412"/>
 </branch>
 <branch type="ELSE">
 <kw name="New Browser" library="Browser">
@@ -22,28 +22,28 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="NOT RUN" starttime="20221104 21:34:17.794" endtime="20221104 21:34:17.794"/>
+<status status="NOT RUN" starttime="20221105 15:18:16.414" endtime="20221105 15:18:16.415"/>
 </kw>
-<status status="NOT RUN" starttime="20221104 21:34:17.793" endtime="20221104 21:34:17.795"/>
+<status status="NOT RUN" starttime="20221105 15:18:16.413" endtime="20221105 15:18:16.416"/>
 </branch>
-<status status="PASS" starttime="20221104 21:34:16.851" endtime="20221104 21:34:17.795"/>
+<status status="PASS" starttime="20221105 15:18:15.463" endtime="20221105 15:18:16.416"/>
 </if>
 <kw name="New Page" library="Browser">
 <arg>https://www.bing.com</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20221104 21:34:19.455" level="INFO">Successfully initialized new page object and opened url: https://www.bing.com</msg>
-<msg timestamp="20221104 21:34:19.455" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20221104 21:34:17.796" endtime="20221104 21:34:19.457"/>
+<msg timestamp="20221105 15:18:18.429" level="INFO">Successfully initialized new page object and opened url: https://www.bing.com</msg>
+<msg timestamp="20221105 15:18:18.429" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20221105 15:18:16.418" endtime="20221105 15:18:18.430"/>
 </kw>
 <kw name="Take Screenshot" library="Browser">
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<msg timestamp="20221104 21:34:21.848" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20221104 21:34:19.459" endtime="20221104 21:34:21.848"/>
+<msg timestamp="20221105 15:18:20.177" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20221105 15:18:18.431" endtime="20221105 15:18:20.177"/>
 </kw>
-<status status="PASS" starttime="20221104 21:34:16.839" endtime="20221104 21:34:21.849"/>
+<status status="PASS" starttime="20221105 15:18:15.450" endtime="20221105 15:18:20.178"/>
 </test>
 <test id="s1-s1-t2" name="Visit Google" line="19">
 <if>
@@ -53,11 +53,11 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20221104 21:34:22.481" level="INFO">{"browser": "chromium", "headless": true, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/opt/robotframework/reports/browser/traces/931ecec6-77be-4dbf-984f-7631d4ef9593"}</msg>
-<msg timestamp="20221104 21:34:22.889" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/opt/robotframework/reports/browser/traces/931ecec6-77be-4dbf-984f-7631d4ef9593"}</msg>
-<status status="PASS" starttime="20221104 21:34:22.480" endtime="20221104 21:34:22.890"/>
+<msg timestamp="20221105 15:18:20.533" level="INFO">{"browser": "chromium", "headless": true, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/opt/robotframework/reports/browser/traces/f8f6819a-cdae-4b25-916e-18876f17888f"}</msg>
+<msg timestamp="20221105 15:18:20.954" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/opt/robotframework/reports/browser/traces/f8f6819a-cdae-4b25-916e-18876f17888f"}</msg>
+<status status="PASS" starttime="20221105 15:18:20.531" endtime="20221105 15:18:20.955"/>
 </kw>
-<status status="PASS" starttime="20221104 21:34:22.479" endtime="20221104 21:34:22.891"/>
+<status status="PASS" starttime="20221105 15:18:20.531" endtime="20221105 15:18:20.956"/>
 </branch>
 <branch type="ELSE">
 <kw name="New Browser" library="Browser">
@@ -65,28 +65,28 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="NOT RUN" starttime="20221104 21:34:22.893" endtime="20221104 21:34:22.894"/>
+<status status="NOT RUN" starttime="20221105 15:18:20.960" endtime="20221105 15:18:20.961"/>
 </kw>
-<status status="NOT RUN" starttime="20221104 21:34:22.892" endtime="20221104 21:34:22.894"/>
+<status status="NOT RUN" starttime="20221105 15:18:20.957" endtime="20221105 15:18:20.961"/>
 </branch>
-<status status="PASS" starttime="20221104 21:34:22.479" endtime="20221104 21:34:22.895"/>
+<status status="PASS" starttime="20221105 15:18:20.530" endtime="20221105 15:18:20.962"/>
 </if>
 <kw name="New Page" library="Browser">
 <arg>https://www.google.com</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20221104 21:34:25.860" level="INFO">Successfully initialized new page object and opened url: https://www.google.com</msg>
-<msg timestamp="20221104 21:34:25.860" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20221104 21:34:22.896" endtime="20221104 21:34:25.860"/>
+<msg timestamp="20221105 15:18:24.118" level="INFO">Successfully initialized new page object and opened url: https://www.google.com</msg>
+<msg timestamp="20221105 15:18:24.119" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20221105 15:18:20.963" endtime="20221105 15:18:24.120"/>
 </kw>
 <kw name="Take Screenshot" library="Browser">
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<msg timestamp="20221104 21:34:26.639" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20221104 21:34:25.861" endtime="20221104 21:34:26.640"/>
+<msg timestamp="20221105 15:18:24.589" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20221105 15:18:24.121" endtime="20221105 15:18:24.590"/>
 </kw>
-<status status="PASS" starttime="20221104 21:34:22.472" endtime="20221104 21:34:26.641"/>
+<status status="PASS" starttime="20221105 15:18:20.520" endtime="20221105 15:18:24.591"/>
 </test>
 <test id="s1-s1-t3" name="Visit Yahoo" line="28">
 <if>
@@ -96,11 +96,11 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20221104 21:34:26.819" level="INFO">{"browser": "chromium", "headless": true, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/opt/robotframework/reports/browser/traces/d75d81fc-5ad1-472e-824d-673e98cbc73b"}</msg>
-<msg timestamp="20221104 21:34:27.287" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/opt/robotframework/reports/browser/traces/d75d81fc-5ad1-472e-824d-673e98cbc73b"}</msg>
-<status status="PASS" starttime="20221104 21:34:26.816" endtime="20221104 21:34:27.287"/>
+<msg timestamp="20221105 15:18:24.740" level="INFO">{"browser": "chromium", "headless": true, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "deprecated_pos_args": [], "tracesDir": "/opt/robotframework/reports/browser/traces/5639f6de-95b1-434a-87e3-a6638cff6dc1"}</msg>
+<msg timestamp="20221105 15:18:25.210" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"deprecated_pos_args":[],"tracesDir":"/opt/robotframework/reports/browser/traces/5639f6de-95b1-434a-87e3-a6638cff6dc1"}</msg>
+<status status="PASS" starttime="20221105 15:18:24.738" endtime="20221105 15:18:25.211"/>
 </kw>
-<status status="PASS" starttime="20221104 21:34:26.815" endtime="20221104 21:34:27.288"/>
+<status status="PASS" starttime="20221105 15:18:24.737" endtime="20221105 15:18:25.212"/>
 </branch>
 <branch type="ELSE">
 <kw name="New Browser" library="Browser">
@@ -108,32 +108,32 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="NOT RUN" starttime="20221104 21:34:27.290" endtime="20221104 21:34:27.291"/>
+<status status="NOT RUN" starttime="20221105 15:18:25.214" endtime="20221105 15:18:25.215"/>
 </kw>
-<status status="NOT RUN" starttime="20221104 21:34:27.289" endtime="20221104 21:34:27.292"/>
+<status status="NOT RUN" starttime="20221105 15:18:25.213" endtime="20221105 15:18:25.216"/>
 </branch>
-<status status="PASS" starttime="20221104 21:34:26.814" endtime="20221104 21:34:27.292"/>
+<status status="PASS" starttime="20221105 15:18:24.737" endtime="20221105 15:18:25.217"/>
 </if>
 <kw name="New Page" library="Browser">
 <arg>https://search.yahoo.com</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20221104 21:34:29.946" level="INFO">Successfully initialized new page object and opened url: https://search.yahoo.com</msg>
-<msg timestamp="20221104 21:34:29.946" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20221104 21:34:27.293" endtime="20221104 21:34:29.947"/>
+<msg timestamp="20221105 15:18:27.621" level="INFO">Successfully initialized new page object and opened url: https://search.yahoo.com</msg>
+<msg timestamp="20221105 15:18:27.622" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20221105 15:18:25.218" endtime="20221105 15:18:27.623"/>
 </kw>
 <kw name="Take Screenshot" library="Browser">
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<msg timestamp="20221104 21:34:31.582" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-3.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20221104 21:34:29.949" endtime="20221104 21:34:31.582"/>
+<msg timestamp="20221105 15:18:29.557" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-3.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20221105 15:18:27.624" endtime="20221105 15:18:29.558"/>
 </kw>
-<status status="PASS" starttime="20221104 21:34:26.805" endtime="20221104 21:34:31.583"/>
+<status status="PASS" starttime="20221105 15:18:24.728" endtime="20221105 15:18:29.559"/>
 </test>
-<status status="PASS" starttime="20221104 21:34:14.728" endtime="20221104 21:34:31.768"/>
+<status status="PASS" starttime="20221105 15:18:12.356" endtime="20221105 15:18:29.736"/>
 </suite>
-<status status="PASS" starttime="20221104 21:34:14.647" endtime="20221104 21:34:31.782"/>
+<status status="PASS" starttime="20221105 15:18:12.275" endtime="20221105 15:18:29.750"/>
 </suite>
 <statistics>
 <total>
